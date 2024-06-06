@@ -5,7 +5,7 @@
 </div>
 <br>
 
-[![GitHub stars](https://badgen.net/github/stars/KyanChen/TTP)](https://github.com/KyanChen/TTP)
+[![GitHub stars](https://badgen.net/github/stars/TianWen580/FIBT)](https://github.com/TianWen580/FIBT)
 [![license](https://img.shields.io/badge/license-Apache--2.0-green)](LICENSE)
 
 <br>
@@ -19,6 +19,8 @@
 </div>
 
 ## 介绍
+
+![fibt-img](docs/fibt.png)
 
 本仓库包含论文《FIBTNet: Building Change Detection for Remote Sensing images Using Feature Interactive Bi-temporal Network》的代码，该论文基于MMSegmentation和Open-CD框架。
 

@@ -21,6 +21,8 @@ English | [简体中文](README_zh-CN.md)
 
 ## Introduction
 
+![fibt-img](docs/fibt.png)
+
 This repository contains the code for the paper titled "FIBTNet: Constructing a Change Detection Framework for Remote Sensing Images via a Feature Interactive Bi-temporal Network," which is built upon the MMSegmentation and Open-CD frameworks.
 
 Should you find this project beneficial, we kindly ask you to give it a star ⭐️. Your endorsement serves as our most significant source of inspiration.
@@ -37,7 +39,6 @@ The current version of this branch has been verified to function with PyTorch 2.
 ## ToDos
 
 - [ ] Support single image demo
-- [ ] Support 
 - [ ] ...
 
 ## Usage
