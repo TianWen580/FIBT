@@ -93,7 +93,7 @@ pip install -U wandb einops importlib peft==0.8.2 scipy ftfy prettytable torchme
 Download or clone the `fibt` repository.
 
 ```shell
-git clone git@github.com:TianWen580/fibt.git
+git clone git@github.com:TianWen580/FIBT.git
 cd fibt
 ```
 
