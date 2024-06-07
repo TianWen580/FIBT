@@ -41,6 +41,13 @@ The current version of this branch has been verified to function with PyTorch 2.
 - [ ] Support single image demo
 - [ ] ...
 
+## Results
+
+|Benchmark|F1-Score|Config|Weights|
+|---|---|---|---|
+|LEVIR-CD|91.92%|[fibt_r18_512x512_40k_levircd_fdaf](https://github.com/TianWen580/FIBT/releases/download/ckp/fibt_r18_512x512_40k_levircd_fdaf.py)|[download](https://github.com/TianWen580/FIBT/releases/download/ckp/ckp_fibt_levircd.pth)|
+|S2Looking|64.97&|[fibt_r18_512x512_80k_s2looking_fdaf](https://github.com/TianWen580/FIBT/releases/download/ckp/fibt_r18_512x512_80k_s2looking_fdaf.py)|[download](https://github.com/TianWen580/FIBT/releases/download/ckp/ckp_fibt_s2looking.pth)|
+
 ## Usage
 
 ### Dependencies
@@ -93,7 +100,7 @@ pip install -U wandb einops importlib peft==0.8.2 scipy ftfy prettytable torchme
 Download or clone the `fibt` repository.
 
 ```shell
-git clone git@github.com:TianWen580/fibt.git
+git clone git@github.com:TianWen580/FIBT.git
 cd fibt
 ```
 

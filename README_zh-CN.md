@@ -32,14 +32,21 @@ FIBTNet基于Open-CD工具箱。Open-CD是一个基于一系列开源通用视�
 
 该分支的当前版本已验证可在PyTorch 2.x和CUDA 12.1上运行，适用于Python 3.7及以上版本，并与各种CUDA版本兼容。
 
-## 新闻
+## 消息
 🌟 2024年6月6日 - FIBTNet公开发布！
 
 ## 待办事项
 
 - [ ] 支持单图像演示
-- [ ] 支持
 - [ ] ...
+
+## 结果
+
+|数据集|F1-Score|配置文件|权重|
+|---|---|---|---|
+|LEVIR-CD|91.92%|[fibt_r18_512x512_40k_levircd_fdaf](https://github.com/TianWen580/FIBT/releases/download/ckp/fibt_r18_512x512_40k_levircd_fdaf.py)|[download](https://github.com/TianWen580/FIBT/releases/download/ckp/ckp_fibt_levircd.pth)|
+|S2Looking|64.97&|[fibt_r18_512x512_80k_s2looking_fdaf](https://github.com/TianWen580/FIBT/releases/download/ckp/fibt_r18_512x512_80k_s2looking_fdaf.py)|[download](https://github.com/TianWen580/FIBT/releases/download/ckp/ckp_fibt_s2looking.pth)|
+
 
 ## 使用
 
@@ -93,7 +100,7 @@ pip install -U wandb einops importlib peft==0.8.2 scipy ftfy prettytable torchme
 下载或克隆`fibt`仓库。
 
 ```shell
-git clone git@github.com:TianWen580/fibt.git
+git clone git@github.com:TianWen580/FIBT.git
 cd fibt
 ```
 
