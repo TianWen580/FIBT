@@ -101,7 +101,7 @@ pip install -U wandb einops importlib peft==0.8.2 scipy ftfy prettytable torchme
 
 ```shell
 git clone git@github.com:TianWen580/FIBT.git
-cd fibt
+cd FIBT
 ```
 
 ## 数据集准备

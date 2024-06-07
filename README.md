@@ -101,7 +101,7 @@ Download or clone the `fibt` repository.
 
 ```shell
 git clone git@github.com:TianWen580/FIBT.git
-cd fibt
+cd FIBT
 ```
 
 ## Dataset Preparation
