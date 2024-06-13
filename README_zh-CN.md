@@ -42,10 +42,10 @@ FIBTNet基于Open-CD工具箱。Open-CD是一个基于一系列开源通用视�
 
 ## 结果
 
-|数据集|F1-Score|配置文件|权重|
-|---|---|---|---|
-|LEVIR-CD|91.92%|[fibt_r18_512x512_40k_levircd_fdaf](https://github.com/TianWen580/FIBT/releases/download/ckp/fibt_r18_512x512_40k_levircd_fdaf.py)|[download](https://github.com/TianWen580/FIBT/releases/download/ckp/ckp_fibt_levircd.pth)|
-|S2Looking|64.97&|[fibt_r18_512x512_80k_s2looking_fdaf](https://github.com/TianWen580/FIBT/releases/download/ckp/fibt_r18_512x512_80k_s2looking_fdaf.py)|[download](https://github.com/TianWen580/FIBT/releases/download/ckp/ckp_fibt_s2looking.pth)|
+|数据集|F1-Score|Param (M)|FLOPs (G)|配置文件|权重|
+|---|---|---|---|---|---|
+|LEVIR-CD|91.96%|13.26|6.40|[fibt_r18_512x512_40k_levircd_fdaf](https://github.com/TianWen580/FIBT/releases/download/ckp/fibt_r18_512x512_40k_levircd_fdaf.py)|[download](https://github.com/TianWen580/FIBT/releases/download/ckp/ckp_fibt_levircd.pth)|
+|S2Looking|68.60%|13.26|6.40|[fibt_r18_512x512_80k_s2looking_fdaf](https://github.com/TianWen580/FIBT/releases/download/ckp/fibt_r18_512x512_80k_s2looking_fdaf.py)|[download](https://github.com/TianWen580/FIBT/releases/download/ckp/ckp_fibt_s2looking.pth)|
 
 
 ## 使用
