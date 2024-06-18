@@ -5,42 +5,6 @@
 </div>
 <br>
 
-
-
-[![GitHub stars](https://badgen.net/github/stars/TianWen580/FIBT)](https://github.com/TianWen580/FIBT)
-[![license](https://img.shields.io/badge/license-Apache--2.0-green)](LICENSE)
-
-<br>
-<br>
-
-<div align="center">
-
-English | [简体中文](README_zh-CN.md)
-
-</div>
-
-## Introduction
-
-![fibt-img](docs/fibt.png)
-
-This repository contains the code for the paper titled "FIBTNet: Constructing a Change Detection Framework for Remote Sensing Images via a Feature Interactive Bi-temporal Network," which is built upon the MMSegmentation and Open-CD frameworks.
-
-Should you find this project beneficial, we kindly ask you to give it a star ⭐️. Your endorsement serves as our most significant source of inspiration.
-
-## Reliance
-
-FIBTNet base on Open-CD toolbox. Open-CD is an open source change detection toolbox based on a series of open source general vision task tools.
-
-The current version of this branch has been verified to function with PyTorch 2.x and CUDA 12.1, and it is designed to work with Python versions 3.7 and above, offering compatibility with a wide range of CUDA versions.
-
-## News
-🌟 6/6/2024 - FIBTNet is publicly available!
-
-## ToDos
-
-- [ ] Support single image demo
-- [ ] ...
-
 ## Results
 
 |Benchmark|F1-Score|Param (M)|FLOPs (G)|Config|Weights|
